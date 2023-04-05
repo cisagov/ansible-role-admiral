@@ -25,7 +25,7 @@ updates:
     schedule:
       interval: "weekly"
     # ignore:
-    #   # Managed by cisagov/skeleton-ansible-role
+    #   # Managed by cisagov/ansible-role-admiral
     #   - dependency-name: "ansible"
     #   - dependency-name: "ansible-lint"
 

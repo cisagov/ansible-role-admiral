@@ -2,6 +2,6 @@
 - name: Converge
   hosts: all
   tasks:
-    - name: Include skeleton-ansible-role
+    - name: Include ansible-role-admiral
       ansible.builtin.include_role:
-        name: skeleton-ansible-role
+        name: ansible-role-admiral
