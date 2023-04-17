@@ -1,2 +1,18 @@
 ---
-# tasks file for skeleton
+- name: Create the /var/cyhy/admiral directory
+  ansible.builtin.file:
+    mode: 0755
+    path: /var/cyhy/admiral
+    state: directory
+
+- name: Install the Docker Compose configuration
+  ansible.builtin.copy:
+    dest: /var/cyhy/admiral
+    mode: 0644
+    src: docker-compose.yml
+
+- name: Install the Docker Compose development configuration
+  ansible.builtin.copy:
+    dest: /var/cyhy/admiral
+    mode: 0644
+    src: docker-compose-dev.yml
