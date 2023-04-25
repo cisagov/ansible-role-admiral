@@ -10,9 +10,3 @@
     dest: /var/cyhy/admiral
     mode: 0644
     src: docker-compose.yml
-
-- name: Install the Docker Compose development configuration
-  ansible.builtin.copy:
-    dest: /var/cyhy/admiral
-    mode: 0644
-    src: docker-compose-dev.yml
