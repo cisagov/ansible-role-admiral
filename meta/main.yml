@@ -10,6 +10,8 @@ galaxy_info:
   company: CISA Cyber Assessments
   description: This role installs the Docker composition for the Admiral Python library in order to run Certificate Transparency log scans.
   galaxy_tags:
+    - certificate
+    - certificatetransparency
     - python
     - security
   license: CC0
