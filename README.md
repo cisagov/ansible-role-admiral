@@ -3,7 +3,9 @@
 [![GitHub Build Status](https://github.com/cisagov/ansible-role-admiral/workflows/build/badge.svg)](https://github.com/cisagov/ansible-role-admiral/actions)
 [![CodeQL](https://github.com/cisagov/ansible-role-admiral/workflows/CodeQL/badge.svg)](https://github.com/cisagov/ansible-role-admiral/actions/workflows/codeql-analysis.yml)
 
-Ansible Role that installs the Docker composition for [cisagov/admiral](https://github.com/cisagov/admiral).
+This is an Ansible role that installs the Docker composition for
+[cisagov/admiral](https://github.com/cisagov/admiral), a Certificate
+Transparency log harvester.
 
 ## Requirements ##
 
