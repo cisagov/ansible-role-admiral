@@ -78,7 +78,11 @@ services:
       - "/run/secrets/redis_conf"
     image: redis:7.0-alpine
     ports:
-      - "6379:6379"
+      - host_ip: 127.0.0.1
+        mode: host
+        protocol: tcp
+        published: 6379
+        target: 6379
     secrets:
       - source: redis_conf
 
