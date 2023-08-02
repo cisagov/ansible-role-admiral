@@ -7,7 +7,7 @@
 
 # These folks own any files in the .github directory at the root of
 # the repository and any of its subdirectories.
-/.github/ @dav3r @felddy @jsf9k @mcdonnnj
+/.github/ @dav3r @felddy @jasonodoom @king-alexander @jsf9k @mcdonnnj
 
 # These folks own all linting configuration files.
 /.ansible-lint @dav3r @felddy @jsf9k @mcdonnnj
