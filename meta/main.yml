@@ -1,5 +1,7 @@
 ---
-dependencies: []
+dependencies:
+  - src: https://github.com/cisagov/ansible-role-docker
+    name: docker
 galaxy_info:
   author: Alexander King
   company: CISA Cyber Assessments
