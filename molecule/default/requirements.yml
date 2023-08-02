@@ -1,3 +1,5 @@
 ---
+- name: docker
+  src: https://github.com/cisagov/ansible-role-admiral
 - name: upgrade
   src: https://github.com/cisagov/ansible-role-upgrade
