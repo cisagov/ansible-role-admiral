@@ -5,8 +5,8 @@
 #
 # See also cisagov/skeleton-ansible-role#153.
 dependencies:
-  - src: https://github.com/cisagov/ansible-role-docker
-    name: docker
+  - name: docker
+    src: https://github.com/cisagov/ansible-role-docker
 galaxy_info:
   author: Alexander King
   company: CISA Cyber Assessments
