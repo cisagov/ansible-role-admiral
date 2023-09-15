@@ -1,7 +1,9 @@
 ---
 - name: Create the /var/cyhy/admiral directory
   ansible.builtin.file:
+    group: "{{ admiral_file_owner_group | default(omit) }}"
     mode: 0755
+    owner: "{{ admiral_file_owner_username | default(omit) }}"
     path: /var/cyhy/admiral
     state: directory
 
