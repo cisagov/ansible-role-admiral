@@ -10,5 +10,7 @@
 - name: Install the Docker Compose configuration
   ansible.builtin.copy:
     dest: /var/cyhy/admiral
+    group: "{{ admiral_file_owner_group | default(omit) }}"
     mode: 0644
+    owner: "{{ admiral_file_owner_username | default(omit) }}"
     src: docker-compose.yml
