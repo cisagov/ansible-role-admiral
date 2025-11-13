@@ -13,4 +13,4 @@
     group: "{{ admiral_file_owner_group | default(omit) }}"
     mode: "0o644"
     owner: "{{ admiral_file_owner_username | default(omit) }}"
-    src: docker-compose.yml
+    src: compose.yaml

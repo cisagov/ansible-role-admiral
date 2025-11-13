@@ -21,7 +21,7 @@ def test_packages(host, directory):
 
 
 @pytest.mark.parametrize(
-    "file", [{"path": "/var/cyhy/admiral/docker-compose.yml", "mode": "0o644"}]
+    "file", [{"path": "/var/cyhy/admiral/compose.yaml", "mode": "0o644"}]
 )
 def test_command(host, file):
     """Assert that the correct files exist."""
