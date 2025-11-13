@@ -8,7 +8,7 @@ dependencies: []
 galaxy_info:
   author: Alexander King
   company: CISA Cyber Assessments
-  description: This role installs the Docker composition for the Admiral Python library in order to run Certificate Transparency log scans.
+  description: This role installs the Docker composition for the Admiral Python library.
   galaxy_tags:
     - certificate
     - certificatetransparency

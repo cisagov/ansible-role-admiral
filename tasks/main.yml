@@ -2,7 +2,7 @@
 - name: Create the /var/cyhy/admiral directory
   ansible.builtin.file:
     group: "{{ admiral_file_owner_group | default(omit) }}"
-    mode: 0755
+    mode: "0o755"
     owner: "{{ admiral_file_owner_username | default(omit) }}"
     path: /var/cyhy/admiral
     state: directory
@@ -11,6 +11,6 @@
   ansible.builtin.copy:
     dest: /var/cyhy/admiral
     group: "{{ admiral_file_owner_group | default(omit) }}"
-    mode: 0644
+    mode: "0o644"
     owner: "{{ admiral_file_owner_username | default(omit) }}"
     src: docker-compose.yml
