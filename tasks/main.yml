@@ -11,6 +11,6 @@
   ansible.builtin.copy:
     dest: /var/cyhy/admiral
     group: "{{ admiral_file_owner_group | default(omit) }}"
-    mode: "0o644"
+    mode: u=rw,g=r,o=r
     owner: "{{ admiral_file_owner_username | default(omit) }}"
     src: compose.yaml
