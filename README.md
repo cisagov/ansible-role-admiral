@@ -1,6 +1,7 @@
 # ansible-role-admiral #
 
 [![GitHub Build Status](https://github.com/cisagov/ansible-role-admiral/workflows/build/badge.svg)](https://github.com/cisagov/ansible-role-admiral/actions)
+[![License](https://img.shields.io/github/license/cisagov/ansible-role-admiral)](https://spdx.org/licenses/)
 [![CodeQL](https://github.com/cisagov/ansible-role-admiral/workflows/CodeQL/badge.svg)](https://github.com/cisagov/ansible-role-admiral/actions/workflows/codeql-analysis.yml)
 
 This is an Ansible role that installs the Docker composition for
